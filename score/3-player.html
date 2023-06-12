@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scoring Interface</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .score-container {
+        text-align: center;
+        margin-top: 100px;
+      }
+
+      .score {
+        font-size: 48px;
+      }
+
+      .arrow {
+        display: inline-block;
+        font-size: 48px;
+        cursor: pointer;
+        padding: 10px;
+        border: 2px solid white;
+        border-radius: 50%;
+        color: white;
+        background-color: #333;
+      }
+
+      .arrow:hover {
+        background-color: white;
+        color: #333;
+      }
+
+      .arrow:focus {
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://poolscore.pages.dev">Home</a>
+    <div class="score-container">
+      <h1>Score</h1>
+      <h2>Player 1</h2>
+      <div class="score">
+        <button class="arrow up-arrow">&#x25B2;</button>
+        <span id="scoreNumber">0</span>
+        <button class="arrow down-arrow">&#x25BC;</button>
+      </div>
+      <h2>Player 2</h2>
+      <div class="score">
+        <button class="arrow up-arrow">&#x25B2;</button>
+        <span id="scoreNumber">0</span>
+        <button class="arrow down-arrow">&#x25BC;</button>
+      </div>
+      <h2>Player 3</h2>
+      <div class="score">
+        <button class="arrow up-arrow">&#x25B2;</button>
+        <span id="scoreNumber">0</span>
+        <button class="arrow down-arrow">&#x25BC;</button>
+      </div>
+    </div>
+
+    <script>
+      const upArrow = document.querySelector(".up-arrow");
+      const downArrow = document.querySelector(".down-arrow");
+      const scoreNumber = document.getElementById("scoreNumber");
+
+      let score = 0;
+
+      // Function to update the score on the page
+      function updateScore() {
+        scoreNumber.textContent = score;
+      }
+
+      // Function to handle the up arrow click
+      function increaseScore() {
+        score++;
+        updateScore();
+      }
+
+      // Function to handle the down arrow click
+      function decreaseScore() {
+        score--;
+        updateScore();
+      }
+
+      // Event listeners for the arrow clicks
+      upArrow.addEventListener("click", increaseScore);
+      downArrow.addEventListener("click", decreaseScore);
+    </script>
+  </body>
+</html>
