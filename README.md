@@ -1,4 +1,4 @@
-# PoolScore
+# [PoolScore](https://poolscore.pages.dev/)
 The cool looking PoolScore website. Don't just use it to score in Pool- use it for other things!
 
 ## Changelogs
@@ -10,3 +10,8 @@ The cool looking PoolScore website. Don't just use it to score in Pool- use it f
 - Added homepage
 - Added scoring homepage
 - Added 1-player
+
+## Website
+Official website domains:
+- Production: [https://poolscore.pages.dev/](https://poolscore.pages.dev/)
+- Beta/Alpha - private: [https://jpvygr.csb.app/](https://jpvygr.csb.app/)
