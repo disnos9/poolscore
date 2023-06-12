@@ -1,6 +1,10 @@
 # [PoolScore](https://poolscore.pages.dev/)
 The cool looking PoolScore website. Don't just use it to score in Pool- use it for other things!
 
+## Table of Contents
+[Changelogs](https://github.com/disnos9/poolscore/tree/main#changelogs)<br>
+[Website list](https://github.com/disnos9/poolscore/tree/main#website)<br>
+[Contributing](https://github.com/disnos9/poolscore/tree/main#contributing)
 ## Changelogs
 ### ⌨️ In development - v2.0.0
 - Fix players 2-4 not responding to requests ⌨️
@@ -24,3 +28,6 @@ The cool looking PoolScore website. Don't just use it to score in Pool- use it f
 Official website domains:
 - Production: [https://poolscore.pages.dev/](https://poolscore.pages.dev/)
 - Beta/Alpha - private: [https://jpvygr.csb.app/](https://jpvygr.csb.app/)
+
+## Contributing
+You may contribute by forking this and then submitting a pull request.
