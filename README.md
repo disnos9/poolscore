@@ -1,2 +1,12 @@
-# poolscore
-PoolScore website.
+# PoolScore
+The cool looking PoolScore website. Don't just use it to score in Pool- use it for other things!
+
+## Changelogs
+### v1.0.0 - production
+- Added 2-player
+- Added 3-player
+- Added 4-player
+### v0.0.1 - alpha
+- Added homepage
+- Added scoring homepage
+- Added 1-player
