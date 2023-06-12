@@ -2,6 +2,9 @@
 The cool looking PoolScore website. Don't just use it to score in Pool- use it for other things!
 
 ## Changelogs
+### v1.0.1 - bugfixes
+- Remove unused link from navigation (scoring homepage, homepage)
+
 ### v1.0.0 - production
 - Added 2-player
 - Added 3-player
