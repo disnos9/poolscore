@@ -2,6 +2,10 @@
 The cool looking PoolScore website. Don't just use it to score in Pool- use it for other things!
 
 ## Changelogs
+### ⌨️ In development - v2.0.0
+- Fix players 2-4 not responding to requests ⌨️
+- Add 5 player gamemodes and 6 player gamemodes ⌨️
+- Add more information to homepage ⌨️
 ### v1.0.2 - bugfixes
 - Fix player 4, did not include the 4th player score-keeping
 ### v1.0.1 - bugfixes
