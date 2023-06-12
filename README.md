@@ -2,6 +2,8 @@
 The cool looking PoolScore website. Don't just use it to score in Pool- use it for other things!
 
 ## Changelogs
+### v1.0.2 - bugfixes
+- Fix player 4, did not include the 4th player score-keeping
 ### v1.0.1 - bugfixes
 - Remove unused link from navigation (scoring homepage, homepage)
 
