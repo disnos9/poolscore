@@ -1,5 +1,7 @@
 # [PoolScore](https://poolscore.pages.dev/)
 The cool looking PoolScore website. Don't just use it to score in Pool- use it for other things!
+# Alert
+I am going to temporarily be shutting down this project. It'll come back later, I think.
 
 ## Table of Contents
 [Changelogs](https://github.com/disnos9/poolscore/tree/main#changelogs)<br>
